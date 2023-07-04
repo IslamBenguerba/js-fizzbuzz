@@ -1,0 +1,18 @@
+body{
+    background-color: #083b4c;
+}
+
+
+.schacchiera-container{
+    padding: 0;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.square-schacchiera{
+    border: 1px solid red;
+    aspect-ratio: 1/1;
+    width: calc((100% / 8) - 1rem );
+}
